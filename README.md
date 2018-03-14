@@ -3,7 +3,7 @@
 本插件借鉴了react-native-webview-richeditor的开源库。
 
 react-native-richeditor可以实现文字与图形的混排，以及字体的加粗。
-![image](https://github.com/wwlxz22/react-native-richeditor/Screenshot_2018-03-12-19-02-49-680_com.pets.png)
+![image](https://github.com/wwlxz22/react-native-richeditor/blob/master/Screenshot_2018-03-12-19-02-49-680_com.pets.png)
 
 ## 安装
 
