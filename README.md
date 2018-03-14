@@ -27,6 +27,20 @@ yarn add react-native-image-picker
 yarn add react-native-vector-icons
 ```
 
+然后添加本库
+在package.json中添加
+
+"dependencies": {
+		"prop-types": "^15.6.0",
+		"react": "16.0.0",
+		"react-native": "0.54.1",
+		"react-native-image-picker": "^0.26.7",
+		"react-native-keyboard-spacer": "^0.4.1",
+		"react-native-vector-icons": "^4.4.2",
+		"react-native-webview-richeditor": "https://github.com/wwlxz22/react-native-richeditor.git",
+		"react-navigation": "^1.5.1"
+	},
+
 一些用户会遇到类似于键盘遮挡等问题，可以安装react-native-keyboard-spacer
 安卓最好在AndroidManifest.xml中添加如下配置来屏蔽原生键盘压缩布局的问题
 
