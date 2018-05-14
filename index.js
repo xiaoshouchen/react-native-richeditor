@@ -191,14 +191,14 @@ export default class WebViewRichEditor extends Component {
 
     render() {
         const {messagesReceivedFromWebView, message} = this.state;
-
+        let WebSource=Platform.OS==='android' ? { uri:'file:///android_asset/richeditor.html'} : require('./richeditor.html');
         return (
             <View style={styles.container}>
                 <WebView
                     ref={webview => {
                         this.webview = webview;
                     }}
-                    source={require('./richeditor.html')}
+                    source={WebSource}
                     onMessage={this.onMessage}
                 />
                 {
